@@ -1,0 +1,26 @@
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+body{
+    height: 3000px;
+    background-color: orangered;
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+a{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
