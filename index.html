@@ -7,13 +7,36 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Site Teste</title>
       <link href="style.css" rel="stylesheet"/>
-
+      <meta http-equiv="content-Type" content="text/html; charset=UTF-8">
     </head>
 
     <body>
       
       <h1> Seja bem vindo ao meu site Leozinho do peru!! </h1> 
       <h2> aqui eu vou lhe apresenta meu velho amigo logo abaixo... portanto scrole! </h2>
+
+      <h3>Test click!</h3>
+      <hgroup> 
+      <button class="test" onClick="detectClick()">Click this</button>
+      <button class="test" onDblClick="detectDoubleClick()">Double-Click this</button>
+      </hgroup>
+      
+      <div class="faixa">
+        <h1 id = "h1Secret">Secret Massage</h1>
+        <p id = "par"> Double tap hide</p>
+        <button id = "buSecret" onClick="show()" onDblClick="hide()"> Show secret</button>
+        <p id="secret">***********</p>
+      </div>
+
+      <div class="alter">
+        <h1 id="somador"> 0 </h1>
+        <button class="btn" onClick="diminuto()"> Menos </button>
+        <button class="btn" onClick="somacao()">Mais </button>
+      </div>
+      
+      <div style="height: 1px;"></div>
+      
+      <script src="script.js"></script>
       
       <div style="height: 1500px;"></div>
       
@@ -25,7 +48,8 @@
       
       <p> click here men, look this thing bro, That's me baby!</p>
       <a href="https://web.archive.org/web/20230717204942/https://pnrtscr.com/fep8be"> wayback machine </a>
-        
+      
+      
     </body>
 
 </html>
